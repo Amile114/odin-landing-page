@@ -8,6 +8,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* HEADER STYLES */
 .header {
   background-color: #1f2937;
   color: #f9faf8;
@@ -32,4 +33,39 @@ a {
   list-style: none;
   display: flex;
   gap: 16px;
+}
+
+/* HERO STYLES */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: left;
+  height: 300px;
+}
+
+.hero h1 {
+  color: #e5e7eb;
+  font-size: 48px;
+}
+
+.hero-btn {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  font-size: 16px;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  background-color: gray;
+  padding: 70px;
 }
