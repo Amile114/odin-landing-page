@@ -156,3 +156,12 @@ cite {
   border-radius: 8px;
   margin-left: 80px;
 }
+
+/* FOOTER */
+footer {
+  background-color: #1f2937;
+  padding: 20px;
+  text-align: center;
+  color: #e5e7eb;
+  font-size: 18px;
+}
